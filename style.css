@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rebeccapurple;
+}
+.box {
+  text-align: center;
+}
+.hours,
+.minutes,
+.seconds,
+.amorpm {
+  width: 4rem;
+  height: 4rem;
+  background-color: rebeccapurple;
+  padding: 1rem;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  box-shadow: 3px 3px 9px #984fe0, -3px -3px 9px #260f3e;
+}
+#hours,
+#minutes,
+#seconds,
+#amorpm {
+  font-size: 2em;
+  color: #fff;
+}
+
+.box > h1 {
+  font-size: 1em;
+  color: #fff;
+}
